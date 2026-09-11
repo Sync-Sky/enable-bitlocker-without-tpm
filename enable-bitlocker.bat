@@ -46,7 +46,7 @@ echo Adding Recovery Password Protector for C:...
 manage-bde -protectors -add C: -RecoveryPassword >nul
 
 echo Enabling BitLocker on C:...
-:: ใส่ -skiphardwaretest เพื่อบังคับ Encrypt ทันที
+:: -skiphardwaretest To enforce Encrypt now
 manage-bde -on C: -skiphardwaretest
 
 :: ====================================
