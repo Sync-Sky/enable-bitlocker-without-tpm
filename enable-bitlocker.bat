@@ -95,7 +95,7 @@ echo Please make sure you have saved your Recovery Keys.
 echo ===================================================
 echo.
 
-:: สั่ง Restart เครื่องใน 10 วินาที
+:: Restart 10 second 
 shutdown /r /t 10 /c "Restarting to enforce BitLocker Startup Password."
 
 pause
